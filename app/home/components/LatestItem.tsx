@@ -14,7 +14,7 @@ const LatestItem = (props: Props) => {
       href={props.href}
       target="_blank"
     >
-      <div className="max-w-[250px] rounded-2xl overflow-hidden">
+      <div className="max-w-full sm:max-w-[250px] rounded-2xl overflow-hidden">
         <Image src={props.image} width={1440} height={1080} alt="" />
       </div>
 

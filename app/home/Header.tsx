@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <div className="flex justify-between align-center w-full h-full">
+    <div className="flex flex-col sm:flex-row gap-8 justify-center items-center w-full h-full">
       <div className="flex flex-col justify-center gap-4">
         <h1 className="text-4xl font-bold">Roberto Franco</h1>
         <h2 className="text-2xl">Full-Stack Web Developer</h2>

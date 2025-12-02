@@ -5,7 +5,7 @@ const LatestWorks = () => {
     <div className="flex flex-col gap-4 w-full">
       <h2 className="text-2xl font-bold underline">Latest Works</h2>
 
-      <div className="flex justify-between gap-6 flex-wrap">
+      <div className="flex items-center justify-center gap-x-2 gap-y-8 flex-wrap">
         <LatestItem
           href="https://www.imbarcoalpero.com/"
           image="/imbarcoalpero.jpeg"

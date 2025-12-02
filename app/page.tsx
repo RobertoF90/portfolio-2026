@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-between bg-zinc-50 font-sans dark:bg-black ">
       <Navigation />
-      <main className="flex  w-full max-w-2xl flex-col items-center  py-8 px-16 bg-white dark:bg-black sm:items-start gap-8">
+      <main className="flex w-full max-w-xl flex-col items-center py-8 px-8 bg-white dark:bg-black sm:items-start gap-8">
         <Header />
         <Bio />
         <Social />
